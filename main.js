@@ -4,8 +4,8 @@ const somador = require('./somador');
 function main() {
     try{
         console.log(somador.somarNumerosNaturais(10,10));
+        console.log("Funcionalidade executada com sucesso");
     } catch(err) {
-        console.log("Aplicacao executada com sucesso");
         console.log(err);
     }
     try{
